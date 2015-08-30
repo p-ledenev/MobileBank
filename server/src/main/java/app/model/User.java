@@ -13,7 +13,7 @@ import javax.persistence.*;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class User {
+public class User extends PersistedEntity {
 
     private String login;
     private String password;

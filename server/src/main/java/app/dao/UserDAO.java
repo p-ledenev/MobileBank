@@ -11,7 +11,7 @@ import org.springframework.beans.factory.annotation.*;
 public class UserDAO implements IUserDAO {
 
     @Autowired
-    SessionFactory sessionFactory;
+    private SessionFactory sessionFactory;
 
     @Override
     public User findByLogin(String login) {

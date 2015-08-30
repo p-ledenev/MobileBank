@@ -9,6 +9,7 @@ import javax.persistence.*;
  */
 
 @NoArgsConstructor
+@MappedSuperclass
 public class PersistedEntity {
 
     @Id

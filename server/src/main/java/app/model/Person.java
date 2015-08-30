@@ -7,6 +7,7 @@ import javax.persistence.*;
 /**
  * Created by ledenev.p on 27.08.2015.
  */
+
 @Entity
 @Table(name = "Person")
 @Data
